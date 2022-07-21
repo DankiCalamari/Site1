@@ -37774,7 +37774,6 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
   height: 100%;
 }
 
@@ -37807,6 +37806,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-social-icons-1 {
     width: 292px;
+  }
+
+  .u-header .u-icon-1 {
+    color: rgb(59, 89, 152) !important;
   }
 }
 

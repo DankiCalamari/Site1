@@ -105,6 +105,10 @@
   margin-top: 0;
 }
 
+.u-section-3 .u-repeater-1 {
+  grid-gap: 0px 0px;
+}
+
 .u-section-3 .u-text-1 {
   margin: 41px 0 30px;
 }
@@ -113,11 +117,19 @@
   .u-section-3 .u-sheet-1 {
     min-height: 884px;
   }
+
+  .u-section-3 .u-repeater-1 {
+    grid-template-columns: repeat(undefined, NaN%);
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
     min-height: 807px;
+  }
+
+  .u-section-3 .u-repeater-1 {
+    grid-template-columns: 100%;
   }
 }
 
